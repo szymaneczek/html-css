@@ -1,0 +1,19 @@
+[ alt = "Widok - Landscape" ]{
+    margin-left: 150px
+}
+
+div ul{
+    color: blue
+}
+
+div, ul{
+    font-size: 15px;
+}
+
+div > div > ul {
+    font-size: 20px;
+}
+
+div + ol {
+    background-color: blue;
+}

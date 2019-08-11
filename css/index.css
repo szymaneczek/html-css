@@ -8,3 +8,19 @@ body {
     pre {
     font-size: 20px;
     }
+
+ * {
+    color: cyan;
+ }
+ .myClass{
+    color: blueviolet;
+    font-size: 20px;
+ }
+
+ .myClass.secondClass {
+    margin-left: 150px;
+ }
+
+ #myId {
+    font-size: 8px;
+ }
