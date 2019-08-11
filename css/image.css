@@ -16,4 +16,11 @@ div > div > ul {
 
 div + ol {
     background-color: blue;
+    font-style: italic;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+body {
+    background-image: url("../img/background.jpeg");
 }
