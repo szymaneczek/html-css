@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+</head>
+<body>
+    <form action="index.html">
+        <label for="name">Imię</label>
+        <input type="text" id="name"/>
+        <br>
+        <label>Nazwisko<input type="text" id="surname"/></label>
+        <br>
+        <label>Hasło</label>
+        <input type="password" id="password"/>
+        <br>
+        <label>Płeć
+            <select name="gender" id="gender">
+            <option>Kobieta</option>
+            <option>Mężczyzna</option>
+        </select>
+        </label>
+        <br>
+        <label>Wiadomość
+        <textarea id="message" cols="20" rows="10"></textarea>
+        </label>
+        <br>
+        <label>Wyrażam zgodę na ciasteczka
+            <input name="agreed" type="checkbox"/>
+        </label>
+        <br>
+        <button type="submit">Wyślij wiadomość</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
